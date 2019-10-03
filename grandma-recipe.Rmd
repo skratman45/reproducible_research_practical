@@ -10,7 +10,6 @@ output:
   html_document:
     highlight: pygments
     theme: journal
-bibliography: glop.bib
 ---
 
 -----
@@ -134,7 +133,7 @@ And do keep in mind that a blank line equates to a
 paragraph break.
 
 
-### Static table version {#static-recipe-list}
+### Static table version {#static-table-list}
 We could also have written that stuff out in a table.
 There are actually lots of ways to write tables.  See
 [this link](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#tables).
@@ -194,10 +193,10 @@ as can be done with R Markdown.
 We should perhaps qualify this model with a few statements.
 This model was not empirically derived by rigorous
 tests, rather we guessed at it given similar work done
-on cooking times of Chinook salmon at altitude [@will2014] and 
-for steelhead at different temperatures [@abadia2013]. But please
+on cooking times of Chinook salmon at altitude and 
+for steelhead at different temperatures. But please
 bear in mind that we did not account for the issues noted
-by @crandall2016 which arise while using next
+by which arise while using next
 generation oven technology.
 
 
@@ -311,7 +310,7 @@ Wanna have a different look?  Try the "Gear" link to the
 right of the "Knit HTML" button.  Notice how changes there
 change things in the YAML header. 
 
-And let us thank fish [@boughton2009spatial]
+And let us thank fish
 
 
 ## References
